@@ -2,7 +2,7 @@ Global Weather Analytics & Forecasting Pipeline
 
 An end-to-end data engineering and business intelligence project designed to ingest live and historical weather metrics across major international hubs and Indian cities, structure them into a high-performance relational star schema via PySpark, and present them through an interactive Power BI dashboard.
 
-(Note: If you do not have Power BI Desktop installed, please scroll down the GitHub page to view full, high-resolution interactive screenshots of the data model and reporting canvases directly in your browser.
+(Note: If you do not have Power BI Desktop installed, please refer to high-resolution interactive screenshots of reporting canvases directly in your browser.)
 
 🛠️ Tech Stack & Tools Applied
 
