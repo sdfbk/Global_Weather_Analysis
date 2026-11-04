@@ -2,6 +2,8 @@ Global Weather Analytics & Forecasting Pipeline
 
 An end-to-end data engineering and business intelligence project designed to ingest live and historical weather metrics across major international hubs and Indian cities, structure them into a high-performance relational star schema via PySpark, and present them through an interactive Power BI dashboard.
 
+(Note: If you do not have Power BI Desktop installed, please scroll down the GitHub page to view full, high-resolution interactive screenshots of the data model and reporting canvases directly in your browser.
+
 🛠️ Tech Stack & Tools Applied
 
 Programming Language: Python 3.x & PySpark (for distributed data processing and ETL pipeline automation).
@@ -10,7 +12,7 @@ API Source: Open-Meteo Weather API (free-tier endpoints for historical and forec
 
 Database Management System: Microsoft SQL Server (MSSQL) / Local SQL Server (for relational data storage).
 
-ETL & Automation: Python requests, PySpark DataFrames, sqlalchemy / JDBC, and Windows Task Scheduler.
+ETL & Automation: Python requests, PySpark DataFrames, sSQLAlchemy/ JDBC, and Windows Task Scheduler.
 
 Data Modeling & BI: Power BI Desktop (Star Schema design, DAX, and Azure Maps).
 
@@ -22,7 +24,7 @@ API Connection: Python scripts connect to the Open-Meteo API to fetch hourly and
 
 Transformation (PySpark): Raw JSON payloads are ingested, flattened, parsed into structured date and time attributes using PySpark DataFrame transformations, and loaded cleanly into our staging workflow.
 
-Database Insertion: Processed dataframes are loaded into a local Microsoft SQL Server instance using automated database connectivity.
+Database Insertion: Processed DataFrames are loaded into a local Microsoft SQL Server instance using automated database connectivity.
 
 Phase 2: Data Modeling & Star Schema Architecture
 
